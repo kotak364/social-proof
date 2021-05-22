@@ -97,6 +97,7 @@ h1 {
 .para {
   color: var(--White);
   padding: 2rem;
+  text-align:left;
 }
 
 .testimonial_image {
@@ -187,7 +188,7 @@ h1 {
   
   }
 
-  .testimonial-section::before{
+  /* .testimonial-section::before{
     content: " ";
     background-image: url("images/bg-pattern-bottom-desktop.svg");
     background-size: cover;
@@ -199,7 +200,7 @@ h1 {
     width:30rem;
    
   
-  }
+  } */
   
   
 }
