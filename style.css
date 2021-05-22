@@ -26,6 +26,7 @@ h1 {
   color: var(--Very-Dark-Magenta);
   width: 50%;
   margin: 2rem auto;
+  font-size: 2rem;
 }
 
 .container_p1 {
@@ -115,7 +116,7 @@ h1 {
   }
 
   .heading-part {
-    margin: 7rem 0;
+    margin: 5rem 0;
     width: 50%;
   }
 
