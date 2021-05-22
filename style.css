@@ -162,11 +162,40 @@ h1 {
   h1 {
     font-size: 4rem;
     width: 90%;
+    text-align: left;
   }
   .container_p1 {
     text-align: left;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     font-size: 1.5rem;
   }
+
+  .review-section::before{
+    content: " ";
+    background-image: url("images/bg-pattern-top-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:0;
+    left:0;
+
+  
+  
+  }
+
+  .testimonial-section::before{
+    content: " ";
+    background-image: url("images/bg-pattern-bottom-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:absolute;
+    bottom:0;
+    height: 50rem;
+    width:100rem;
+   
+  
+  }
+  
+  
 }
