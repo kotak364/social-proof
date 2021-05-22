@@ -59,6 +59,23 @@ h1 {
 }
 .rating_heading {
   margin-top: 1rem;
+ 
+}
+
+.testimonial-section{
+  position: relative;
+}
+
+.testimonial-section::before{
+  content: " ";
+  background-image: url("images/bg-pattern-bottom-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position:absolute;
+  bottom:0;
+  height:58rem;
+  width:67rem;
+
 }
 .testimonial {
   width: 70%;
