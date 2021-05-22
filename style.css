@@ -132,6 +132,12 @@ h1 {
   }
   h1 {
     font-size: 4rem;
-    width: 70%;
+    width: 90%;
+  }
+  .container_p1 {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
   }
 }
