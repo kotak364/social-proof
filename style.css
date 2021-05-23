@@ -35,10 +35,11 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   position:absolute;
-  height:18rem;
-  width:28rem;
+  height:30%;
+  width:100%;
   top:0;
   left:0;
+  background-position:  top left;
 
 
 }
@@ -63,21 +64,23 @@ h1 {
  
 }
 
-/* .testimonial-section{
+ .testimonial-section{
   position: relative;
-}
+} 
 
-.testimonial-section::before{
+.testimonial-section::after{
   content: " ";
   background-image: url("images/bg-pattern-bottom-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   position:absolute;
   bottom:0;
-  height:40rem;
-  width:40rem;
+  height:60%;
+  width:100%;
 
-} */
+
+
+}
 .testimonial {
   width: 70%;
   text-align: center;
@@ -181,14 +184,14 @@ h1 {
     position:absolute;
     top:0;
     left:0;
-    width: 40rem;
-    height: 23rem;
+    width: 45%;
+    height: 50%;
 
   
   
   }
 
-  /* .testimonial-section::before{
+   .testimonial-section::after{
     content: " ";
     background-image: url("images/bg-pattern-bottom-desktop.svg");
     background-size: cover;
@@ -200,7 +203,7 @@ h1 {
     width:30rem;
    
   
-  } */
+  } 
   
   
 }
