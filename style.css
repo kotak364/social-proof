@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
 
+ /* ======= css reset start =======  */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+ /* ======= css reset end =======  */
+
+
+ /* ======= css variable start =======  */
 
 :root {
   --Soft-Pink: hsl(333, 80%, 67%);
@@ -13,6 +18,12 @@
   --Light-Grayish-Magenta: hsl(300, 24%, 96%);
   --White: hsl(0, 0%, 100%);
 }
+
+ /* ======= css variable end =======  */
+
+ /* ======= general styling start =======  */
+  
+
 body {
   width: 100%;
   height: 100vh;
@@ -29,6 +40,22 @@ h1 {
   font-size: 2rem;
 }
 
+.container_p1 {
+  color: var(--Dark-Grayish-Magenta);
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+ /* ======= general styling end  =======  */
+
+
+
+ /* ======= review section start  =======  */
+
+
+
 .review-section::before{
   content: " ";
   background-image: url("images/bg-pattern-top-mobile.svg");
@@ -42,12 +69,6 @@ h1 {
   background-position:  top left;
 
 
-}
-.container_p1 {
-  color: var(--Dark-Grayish-Magenta);
-  text-align: center;
-  width: 50%;
-  margin: 0 auto;
 }
 
 .rating {
@@ -63,6 +84,14 @@ h1 {
   margin-top: 1rem;
  
 }
+
+ /* ======= review section end  =======  */
+
+
+
+
+ /* ======= testimonial  section start =======  */
+
 
  .testimonial-section{
   position: relative;
@@ -120,6 +149,13 @@ h1 {
 .client-3{
   margin-bottom: 4rem;
 }
+
+ /* ======= testimonial  section end  =======  */
+
+ /* ======= responsive design start ( tablet and desktop mode)   =======  */
+
+
+
 
 @media screen and (min-width: 48rem) {
   .testimonial-section {
@@ -207,3 +243,4 @@ h1 {
   
   
 }
+ /* ======= responsive design end ( tablet and desktop mode)   =======  */
