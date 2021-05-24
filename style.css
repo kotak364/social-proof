@@ -82,6 +82,7 @@ h1 {
 }
 .rating_heading {
   margin-top: 1rem;
+
  
 }
 
@@ -204,11 +205,12 @@ h1 {
     font-size: 4rem;
     width: 90%;
     text-align: left;
+    margin-left: 5rem;
   }
   .container_p1 {
     text-align: left;
     width: 80%;
-    margin: 0 auto;
+    margin-left: 3rem;
     font-size: 1.5rem;
   }
 
